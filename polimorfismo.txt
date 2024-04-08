@@ -1,0 +1,18 @@
+1: que es polimorfismos poo?
+
+ El polimorfismo es un concepto fundamental en la programación orientada a objetos (POO). Se refiere a la capacidad de diferentes objetos de una jerarquía de clases para responder al mismo mensaje de manera diferente. Esto significa que objetos de diferentes clases pueden ser tratados de manera uniforme si pertenecen a una misma clase base, pero pueden comportarse de manera distinta según su propia implementación.
+
+Existen dos tipos principales de polimorfismo en la POO:
+
+* Polimorfismo de subtipos (o inclusión): Este tipo de polimorfismo se refiere a la capacidad de una variable de un tipo base para hacer referencia a un objeto de cualquier tipo derivado de esa clase base. Cuando se llama a un método en esta variable, se ejecutará el método específico de la clase derivada si está sobrescrito, o el método de la clase base si no lo está. Esto permite tratar objetos de diferentes clases de manera uniforme. Por ejemplo, si tienes una clase base Animal y clases derivadas como Perro, Gato y Pájaro, puedes tratar a todos estos animales de manera similar y llamar a métodos como hacerSonido() aunque cada uno de ellos pueda hacer un sonido diferente.
+
+* Polimorfismo de sobrecarga (o de tipo): 
+Este tipo de polimorfismo ocurre cuando múltiples métodos tienen el mismo nombre pero diferentes parámetros en una clase o en clases relacionadas por herencia. La implementación específica que se ejecuta depende de la cantidad y el tipo de argumentos pasados al método. Por ejemplo, puedes tener múltiples métodos llamados calcularArea() en diferentes clases, pero cada uno puede realizar cálculos de área específicos para esa clase.
+
+2: Que métodos se pueden implementar?
+
+* Métodos virtuales
+* Métodos abstractos
+* Métodos de interfaz
+* Métodos sobrescritos
+* Métodos con múltiples formas
