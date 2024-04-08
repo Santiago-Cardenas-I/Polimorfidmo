@@ -16,3 +16,17 @@ Este tipo de polimorfismo ocurre cuando múltiples métodos tienen el mismo nomb
 * Métodos de interfaz
 * Métodos sobrescritos
 * Métodos con múltiples formas
+
+3: Que ventajas tiene? 
+
+* Permite que los objetos de diferentes clases respondan a un mismo mensaje de manera específica para cada uno.
+
+4: que tipos existen?
+
+* Polimorfismo de subtipos (o inclusión):
+* Polimorfismo de sobrecarga (o de tipo)
+* Polimorfismo paramétrico
+* Polimorfismo ad hoc
+* Polimorfismo de inclusión de interfaces
+
+5: 
